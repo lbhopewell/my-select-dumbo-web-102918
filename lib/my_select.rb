@@ -1,10 +1,11 @@
 def my_select(collection)
- new_array
+ new_array = []
  i = 0 
  while i < collection.length 
- yield(collection[i])
+ new_array << yield(collection[i])
  i += 1
- # your code here!
+ end
+new_array
 end
 
 
