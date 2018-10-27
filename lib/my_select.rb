@@ -12,14 +12,14 @@ def my_select(num)
  i = i + 1
  end
 h = 0
-while h < new_array.length
+while h < new_array.length[h]
 if new_array[h] == true
   tricky << h 
 h = h + 1
 end
 tricky
 end
-end 
+
 
 array = [1, 2, 3, 4, 5] 
 my_select(array) do |number| 
