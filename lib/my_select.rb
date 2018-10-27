@@ -3,8 +3,6 @@ def my_select(num)
  i = 0 
  while i < num.length 
  yield(num[i])
-
- end
  i = i + 1
  end
 new_array
