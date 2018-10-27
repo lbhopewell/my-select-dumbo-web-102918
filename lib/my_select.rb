@@ -11,6 +11,7 @@ end
 
 array = [1, 2, 3, 4, 5] 
 my_select(array) do |number| 
+ binding pry
  #if(number % 2 == 0) 
    number
  #end
