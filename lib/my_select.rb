@@ -3,7 +3,7 @@ def my_select(num)
  new_array = []
  i = 0 
  while i < num.length 
- yield(num[i])
+ new_array << yield(num[i])
  binding.pry
 # if num[i] == true
 #   new_array << i
