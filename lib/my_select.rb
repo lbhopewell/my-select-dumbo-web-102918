@@ -4,4 +4,7 @@ def my_select(collection)
 end
 
 
-my_select(array) |number| 
+my_select(array) do |number| 
+
+
+end
