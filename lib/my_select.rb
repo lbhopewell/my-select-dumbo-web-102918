@@ -10,6 +10,6 @@ end
 
 array = [1, 2, 3, 4, 5] 
 my_select(array) do |number| 
- number.select number.even?
+ .select number.even?
 
 end
