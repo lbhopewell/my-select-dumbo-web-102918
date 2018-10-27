@@ -5,13 +5,13 @@ def my_select(num)
  i = 0 
  while i < num.length 
  new_array << yield(num[i])
- binding.pry
+ #binding.pry
 if yield(num[i]) == true
-#   new_array << i
-# end
+  new_array << i
+ end
  i = i + 1
  end
-num
+new_array
 end
 
 
@@ -21,11 +21,3 @@ my_select(array) do |number|
 #binding.pry
 end
 
-
-# h = 0
-# while h < new_array.length
-# if new_array[h] == true
-#   tricky << h 
-# h = h + 1
-# end
-# tricky
