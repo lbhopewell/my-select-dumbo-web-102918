@@ -9,7 +9,7 @@ new_array
 end
 
 array = [1, 2, 3, 4, 5] 
-my_select(array).select do |number| 
+my_select(array) do |number| 
  number.even?
 
 end
