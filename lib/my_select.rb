@@ -11,13 +11,7 @@ def my_select(num)
 # end
  i = i + 1
  end
-h = 0
-while h < new_array.length
-if new_array[h] == true
-  tricky << h 
-h = h + 1
-end
-tricky
+
 end
 
 
