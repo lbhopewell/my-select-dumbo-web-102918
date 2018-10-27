@@ -6,7 +6,7 @@ def my_select(num)
  while i < num.length 
  yield(num[i])
  #binding.pry
-if yield(num[i]) == true
+if yield(num[i]) == false
   new_array << i
  end
  i = i + 1
