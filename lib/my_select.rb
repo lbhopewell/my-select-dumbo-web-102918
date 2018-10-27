@@ -23,5 +23,5 @@ end
 array = [1, 2, 3, 4, 5] 
 my_select(array) do |number| 
   number.even?
-binding.pry
+#binding.pry
 end
