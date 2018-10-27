@@ -1,13 +1,11 @@
 require "pry"
 def my_select(num)
  new_array = []
- tricky = []
  i = 0 
  while i < num.length 
  yield(num[i])
- #binding.pry
-if yield(num[i]) == false
-  new_array << i
+if yield(num[i]) == true
+  new_array << num[i]
  end
  i = i + 1
  end
