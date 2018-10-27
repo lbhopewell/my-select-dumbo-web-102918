@@ -5,9 +5,9 @@ def my_select(num)
  while i < num.length 
  yield(num[i])
  binding.pry
- if num[i] == true
-   new_array << i
- end
+# if num[i] == true
+#   new_array << i
+# end
  i = i + 1
  end
 new_array
