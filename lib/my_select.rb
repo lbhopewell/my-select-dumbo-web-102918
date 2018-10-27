@@ -5,6 +5,6 @@ end
 
 
 my_select(array) do |number| 
-
+ number.select 
 
 end
