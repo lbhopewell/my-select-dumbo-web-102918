@@ -1,6 +1,7 @@
 require "pry"
 def my_select(num)
  new_array = []
+ tricky = []
  i = 0 
  while i < num.length 
  new_array << yield(num[i])
@@ -10,7 +11,13 @@ def my_select(num)
 # end
  i = i + 1
  end
-new_array
+h = 0
+while h < new_array.length
+if new_array[h] == true
+  tricky << h 
+h = h + 1
+end
+tricky
 end
 
 array = [1, 2, 3, 4, 5] 
