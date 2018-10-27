@@ -3,7 +3,10 @@ def my_select(num)
  new_array = []
  i = 0 
  while i < num.length 
- new_array << yield(num[i])
+ yield(num[i])
+ if num[i]
+   new_array << i
+ end
  i = i + 1
  end
 new_array
