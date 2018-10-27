@@ -4,6 +4,7 @@ def my_select(num)
  i = 0 
  while i < num.length 
  yield(num[i])
+ binding.pry
  if num[i] == true
    new_array << i
  end
