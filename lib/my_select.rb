@@ -4,7 +4,7 @@ def my_select(num)
  tricky = []
  i = 0 
  while i < num.length 
- new_array << yield(num[i])
+ yield(num[i])
  #binding.pry
 if yield(num[i]) == true
   new_array << i
