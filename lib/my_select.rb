@@ -1,3 +1,4 @@
+require "pry"
 def my_select(num)
  new_array = []
  i = 0 
