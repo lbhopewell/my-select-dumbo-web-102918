@@ -3,9 +3,7 @@ def my_select(num)
  i = 0 
  while i < num.length 
  yield(num[i])
- if num[i]
-   
-  
+
  end
  i = i + 1
  end
@@ -14,5 +12,6 @@ end
 
 array = [1, 2, 3, 4, 5] 
 my_select(array) do |number| 
- number.even?
+ if number.even?
+   
 end
