@@ -1,7 +1,7 @@
 def my_select(num)
  new_array = []
  i = 0 
- while i < collection.length 
+ while i < num.length 
  new_array << yield(num[i])
  i = i + 1
  end
