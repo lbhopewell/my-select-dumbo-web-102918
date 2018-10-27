@@ -11,7 +11,7 @@ def my_select(num)
 # end
  i = i + 1
  end
-
+num
 end
 
 
