@@ -8,7 +8,7 @@ def my_select(collection)
 new_array
 end
 
-
+array = 
 my_select(array) do |number| 
  number.select num.even?
 
